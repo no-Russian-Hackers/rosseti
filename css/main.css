@@ -1,0 +1,47 @@
+#mainrow {
+    height: 100vh;
+}
+
+#menu {
+    background-color: #33374a;
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+    padding: 20px;
+    border-right: 5px solid #6a77b0;
+}
+
+.col {
+    padding: 0 !important;
+}
+
+#menuheader {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px double white;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+body {
+    background-color: #d3d9eb !important;
+}
+
+#zone {
+    height: 100%;
+    width: 100%;
+}
+
+.draggable,
+.draggable img {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.draggable label {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(66,66,66);
+}
+
+form{
+    background-color: white;
+    margin-right: 15px;
+    width: 250px;
+    height: 100vh;
+    margin: 0 auto;
+    border-right:  rgb(66,66,66) solid 3px;
+    border-bottom:  rgb(66,66,66) solid 3px;
+    border-bottom-right-radius: 15px;
+    /*display: table-cell;*/
+    float: left;
+}
+
+.form-group{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bor{
+    border-bottom: solid 3px rgb(66,66,66);
+}
+
+.drag, 
+.dragSwitch, 
+.dragDes{
+    /*display: table-cell;*/
+    float: left;
+    width: 105px;
+    height: 105px;
+    margin-left: 15px;
+}
+
+.dragMenu{
+    float: left;
+}
+
+.drugoe{
+    margin-left: 75px;
+}
+
+.spisok{
+    max-width: 225px;
+    margin: 0 auto;
+}
+  

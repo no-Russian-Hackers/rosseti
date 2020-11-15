@@ -1,0 +1,65 @@
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.popup {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 20px;
+    min-width: 400px;
+    max-width: 650px;
+	margin-left: -200px;	
+    background: #fff;
+	border: 1px solid orange;
+	border-radius: 4px; 
+	z-index: 99999;
+	opacity: 1;	
+}
+.popup-close {
+    position: absolute;
+    padding-top: 5px;
+    text-align: center;
+	top: 10px;
+    right: 10px;
+    border: solid 1px  rgb(66,66,66);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(66,66,66);
+    height: 40px;
+    width: 100px;
+}
+
+.popup-close:hover{
+    text-decoration: none;
+    color:  rgb(66,66,66);
+    font-weight: bold;
+    border: solid 3px rgb(66,66,66);
+    background-color: white;
+}
+
+.nas{
+    margin-top: 15px;
+}
+
+.input-group-text{
+    background-color: rgb(66,66,66);
+    color: white;
+}
+
+.basic-url{
+    font-weight: bolder;
+    color: rgb(66,66,66);
+    font-size: 25px;
+}

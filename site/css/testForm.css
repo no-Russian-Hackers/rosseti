@@ -1,0 +1,87 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 0;
+    background-color: rgb(66, 66, 66);
+}
+
+.starts{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.introduction{
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.texts{
+    font-size: 18px;
+    max-width: 700px;
+    min-height: 200px;
+    margin: 0 auto;
+    line-height: 2em;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.linears{
+    border-bottom: solid 3px white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.quens{
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form-check-input{
+    /*position: relative;*/
+    display: block;
+    margin-top: 0.6em;
+    margin-left: 2.50em;
+}
+
+.form-check{
+    display: block;
+}
+
+.knopka{
+    width: 250px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: rgb(66, 66, 66);
+    border: solid 3px #778BDF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.knopka:hover {
+    background: #778BDF;
+    border: solid 3px #778BDF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.knopka:focus{
+    vertical-align: middle;
+    background: #778BDF;
+    border: solid 3px #778BDF;
+}
+
