@@ -1,0 +1,6 @@
+{
+    "name": "К какому методу передачи трафика относится GOOSE-сообщения?",
+    "answers": { "1": "Unicast", "2": "Broadcast", "3": "Multicast" },
+    "trueAnswer": 3,
+    "practice": 0
+}
